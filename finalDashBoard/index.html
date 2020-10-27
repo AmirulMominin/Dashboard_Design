@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1062px)" href="style/mobile.css">
+  </head>
+  <body>
+
+
+    <div class="main">
+
+      <!-- Logo and User Icon -->
+
+      <nav>
+        <h1><a href="#">Settshub</a></h1>
+          <div >
+          <img  class="icon" onclick="toggleNav()" src="images/user-alt-512.webp" alt="">
+            <div class="ni">
+              <h5> <a href="">Log Out</a></h5>
+            </div>
+          </div>
+          
+      </nav>
+      
+      
+        <!-- SideBar -->
+
+      <div class="sidebar left">
+        <div class="sidebaritem">
+          <p class="colorbox one"></p>
+          <a href="#"><p>Deal List</p></a>
+          <p class="number">4</p>
+        </div>
+        <p class="bluedetails">29 Aug 2 This Is A Test Pls Ignore</p>
+        <div class="sidebaritem">
+          <p class="colorbox two"></p>
+          <a href="#"><p>Bank Verification</p></a>
+        </div>
+        <div class="sidebaritem">
+          <p class="colorbox three"></p>
+          <a href="#"><p>Account Settings</p></a>
+        </div>
+        <div class="sidebaritem">
+          <p class="colorbox four"></p>
+          <a href="#"><p>I Need Help</p></a>
+        </div>
+      </div>
+
+
+
+      <div class="mainbody">
+
+          <!-- Main Manu Titles -->
+        <div class="titles">
+          <h2 >2/2 There is something</h2>
+          <h2 >27 DAYS TO GO <img src="images/up-arrow.png" alt=""></h2>
+        </div>
+        <!-- Progress Bar (Status Bar) -->
+        <div>
+          <progress class="bar" value="45" max="100" color="red"></progress>
+        </div>
+
+        <!-- Status Informations -->
+
+        <div class="status-info">
+          <div class="status gtext">
+            <img src="images/icons8-checkmark-64.png" alt=""/>
+            <a href="#"><h4>Signed <br>Contract</h4></a>
+          </div>
+          <div class="status gtext"><a href="#">
+            <img src="images/icons8-checkmark-64.png" alt="">
+            <h4>Desposit</h4></a>
+          </div>
+          <div class="status gtext"><a href="#">
+            <img src="images/icons8-checkmark-64.png" alt="">
+            <h4>Finance</h4></a>
+          </div>
+          <div class="status gtext">
+            <p style="font-size:1.2rem;color:#77cfaf">&#9733; &#9733; &#9733;</p>
+            <h4>Building & Pest</h4>
+          </div>
+          <div class="status down">
+            <p>(In 4 Days)</p>
+            <h4>Cooing Off</h4>
+          </div>
+          <div class="status down">
+            <p>(In 10 Days)</p>
+            <h4>Due Diligence</h4>
+          </div>
+          <div class="status down">
+            <p>(In 14 Days)</p>
+            <h4>Unconditional</h4>
+          </div>
+          <div class="status down">
+            <p>(In 27 Days)</p>
+            <h4>Settled</h4>
+          </div>
+        </div>
+
+
+      <hr>
+
+      <!-- User Bar -->
+
+      <div class="user">
+          <div class="userprofile">
+            <img src="images/person.png" alt="">
+          </div>
+          <div class="username">
+            <h2>User Name</h2>
+            <h5>Buyer</h5>
+          </div>
+
+        <p>Listed:20 Aug</p>
+        <h3><span style="color:#8ccfb9;">$</span>180,000</h3>
+        <h3>Settlement: 16 Sept 4:00 PM</h3>
+
+      </div>
+      <hr>
+
+      <!-- Document and Table Section -->
+      <div class="document">
+        <div> 
+          <p class="df">Document/Images</p>
+        </div>
+        <div class="otherside">
+          <a href="#"> <p class="help">? Help Me</p></a>
+          <a href="#"> <p class="upload"><img src="images/icons8-paper-plane-52.png" alt=""> Upload Document/Image</p> </a>
+        </div>
+        </div>
+        <div class="tablewidth">
+        <table>
+          <tr>
+            <td><span class="notification"><p></p></span><img src="images/pdf.png" alt=""> Name.pdf <span style="font-size:15px;"><br>2 weeks ago</span></td>
+            <td align="right">Note</td>
+            <td  align="right"><a href="#"> Save <img src="images/3d.png" alt=""></a></td>
+          </tr>
+          <tr>
+            <td><span class="notification"><p></p></span><img src="images/pdf.png" alt=""> Name.pdf <span style="font-size:15px;"><br>2 weeks ago</span></td>
+            <td align="right">Note</td>
+            <td  align="right"> <a href="#"> Save <img src="images/3d.png" alt=""></a></td>
+          </tr>
+          <tr>
+            <td><span class="notification"><p></p></span><img src="images/pdf.png" alt=""> Name.pdf <span style="font-size:15px;"><br>2 weeks ago</span></td>
+            <td  align="right">Note</td>
+            <td  align="right"><a href="#"> Save <img src="images/3d.png" alt=""></a></td>
+          </tr>
+        </table>
+      </div>
+
+
+      <hr>
+      <!-- Message Section -->
+      <div class="message">
+        <p>Message</p>
+        <p>No Messages Yet</p>
+
+      </div>
+      </div>
+    </div>
+<br><br><br>
+
+
+
+<script>
+  function toggleNav(){
+    document.querySelector(".ni").classList.toggle("opac");
+  }
+  </script>
+  </body>
+</html>

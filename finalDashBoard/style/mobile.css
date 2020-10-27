@@ -1,0 +1,83 @@
+nav {
+  text-align:center;
+  display: block;
+  padding: 10px;
+
+}
+p{
+  font-size: 1.3rem;
+}
+
+table td {
+  font-size: 1.2rem;
+  
+  }
+.user h3, p {
+  font-size: 1.3rem;
+}
+.ni{
+width: 100%;
+}
+
+nav h1{
+  margin-bottom: 1%;
+  font-size: 30px;
+}
+.left{
+  float: none;
+}
+.sidebar{
+  width: 100%;
+  border: 0;
+  min-height: 150px;
+  margin-bottom: 40px;
+}
+progress{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 20px;
+}
+.statu-bar{
+  text-align: center;
+  width: 100%;
+  margin: 20px 0px;
+}
+.status-info{
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  margin: 30px;
+}
+.status{
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.user{
+  display: block;
+  text-align: center;
+}
+.username{
+  margin: 0;
+  width: 100%;
+}
+.username h2,h5{
+  margin-left: 0;
+}
+.username h5{
+  margin-left: 0;
+}
+.document{
+  padding: 5px;
+}
+.document p{
+  font-size: 1rem;
+}
+table{
+  width: 100%;
+}
+.tablewidth {
+  max-width: 100%;
+  margin-left: 0;
+}
